@@ -1,0 +1,166 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+.right{
+	background-color: rgba(255,255,255,.8);
+}
+
+/* 删除，重命名按钮新增 */
+.panel-heading>ul>li>button{
+	border: none;
+	background-color: white;
+	color: #57B2DF;
+	border: solid 1px #57B2DF;
+	border-radius: 4px;
+	padding: 5px 15px;
+	outline: none;
+}
+
+.panel-heading>ul>li>button:hover{
+	background-color: #57B2DF;
+	color: white;
+}
+
+/* 班级 */
+.options{
+	position: relative;
+	width: 120px;
+	margin: 5px;
+}
+
+.options span{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	background-image: url('../../images/question/u596.png');
+	z-index: 20;
+	background-size: 20px 20px;
+}
+
+.options span.active{
+	background-image: url('../../images/question/u594.png');
+}
+
+.options>div{
+	display: inline-block;
+	position: relative;
+	z-index: 19;
+}
+
+.options p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/* 学生和试卷按钮 */
+.options>div>a{
+	display: block;
+	width: 50%;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 0px;
+	background-color: rgba(54,54,54,.9);
+	display: none;
+}
+
+.options>div>a:last-child{
+	right: 0px;
+}
+
+/* 班级新增、编辑 */
+.grade{
+	position: fixed;
+	width: 30%;
+	height: 300px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: auto;
+	z-index: 8888;
+	display: none;
+}
+
+.grade .panel-heading{
+	background-color: #F3F8FF;
+}
+
+.grade .panel-body button{
+	border: none;
+	background-color: white;
+	color: #57B2DF;
+	border: solid 1px #57B2DF;
+	border-radius: 4px;
+	padding: 5px 15px;
+	outline: none;
+	margin-top: 15px;
+}
+
+.grade .panel-body button:hover{
+	background-color: #57B2DF;
+	color: white;
+}

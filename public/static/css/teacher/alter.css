@@ -1,0 +1,62 @@
+
+
+.tx{
+	position: relative;
+}
+
+
+
+#alterImg{
+	background-color:transparent;
+	background-image: url('../../images/teacher/u283.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: none;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 10%;
+	width: 80%;
+	height: 19%;
+	font-size: 18px;
+	display: none;
+	outline: none;
+}
+
+.form-horizontal p{
+	line-height: 1;
+}
+
+#alter{
+	padding-top: 20px;
+}
+
+#alter a{
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #66FF00;
+}
+
+.tx input{
+	visibility: hidden;
+}
+
+/* 提示框 */
+
+#hint{
+	width: 15vw;
+	height: 10vh;
+	background-color: red;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: auto;
+	border-radius: 3vh;
+	display: none;
+	text-align: center;
+	line-height: 10vh;
+	background-color: rgba(70,60,48,.7);
+	z-index: 99999999;
+}

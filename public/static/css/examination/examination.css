@@ -1,0 +1,268 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+
+
+/* 右边 */
+
+.exam{
+	background-color: rgba(255,255,255,.8);
+}
+
+
+/* 删除按钮 */
+.panel-heading>ul>li>button{
+	border: none;
+	color: #57B2DF;
+	position: relative;
+	padding-left: 30px;
+	border-radius: 4px;
+	padding: 6px 24px;
+	padding-right: 12px;
+	background-color: white;
+	border: solid 1px #57B2DF;
+}
+
+.panel-heading>ul>li>button>span{
+	display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../images/question/u503.png);
+    background-size: 18px 18px;
+    position: absolute;
+    top: 7px;
+    margin-left: -20px;
+}
+
+.panel-heading>ul>li>button:hover{
+	background-color: #57B2DF;
+	color: white;
+}
+
+
+
+/* 搜索框 */
+.input{
+	position: relative;
+}
+
+.submit{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	color: #111010;
+	font-size: 18px;
+}
+
+.submit:hover{
+	cursor: pointer;
+}
+
+
+/* 添加 */
+
+.panel-heading ul>li>a{
+	display: inline-block;
+	border: none;
+	color: #57B2DF;
+	position: relative;
+	padding-left: 30px;
+	border-radius: 4px;
+	padding: 6px 24px;
+	background-color: white;
+	border: solid 1px #57B2DF;
+}
+
+.panel-heading ul>li>a:hover{
+	background-color: #57B2DF;
+	color: white;
+	text-decoration: none;
+}
+
+/* 重命名 */
+/* 重命名 */
+.altername{
+	width: 30%;
+	height: 250px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	display: none;
+}
+
+.altername .panel-heading{
+	background-color: #F3F8FF;
+}
+
+.altername .panel-heading>span{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+
+.altername .panel-heading>span:hover{
+	color: #169BD5;
+}
+
+.altername .panel-body{
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.altername .panel-body>div{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.namebtn{
+	padding-top: 40px;
+}
+
+.namebtn button{
+	width: 35%;
+	padding: 10px 0px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.namebtn button:first-child{
+	color: white;
+	background-color: #169BD5;
+	
+}
+
+.namebtn button:last-child{
+	background-color: white;
+	color: #169BD5;
+	border: solid 1px #169BD5;
+}
+/* 添加试卷 */
+.addExam{
+	width: 30%;
+	height: 250px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	display: none;
+}
+
+.addExam .panel-heading{
+	background-color: #F3F8FF;
+}
+
+.addExam .panel-heading>span{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+
+.addExam .panel-heading>span:hover{
+	color: #169BD5;
+}
+
+.addExam .panel-body{
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.addExam .panel-body>div{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.namebtn{
+	padding-top: 40px;
+}
+
+.namebtn button{
+	width: 35%;
+	padding: 10px 0px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.namebtn button:first-child{
+	color: white;
+	background-color: #169BD5;
+	
+}
+
+.namebtn button:last-child{
+	background-color: white;
+	color: #169BD5;
+	border: solid 1px #169BD5;
+}

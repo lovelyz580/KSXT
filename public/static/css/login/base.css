@@ -1,0 +1,21 @@
+
+/* 界面背景图 */
+.loginbg{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../../images/login/loginbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* 底部 */
+
+.bottom{
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	color: white;
+}

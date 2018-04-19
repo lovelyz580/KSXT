@@ -1,0 +1,363 @@
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {    width: 5px;}
+/* 滚动槽 */
+::-webkit-scrollbar-track {    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    border-radius: 10px;}/* 滚动条滑块 */::-webkit-scrollbar-thumb {    border-radius: 10px;    background: rgba(0,0,0,0.1);    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}::-webkit-scrollbar-thumb:window-inactive {    background: rgba(255,0,0,0.4);}
+
+
+
+
+.container-fluid{
+	background-image: url('../../images/skin/bg1_u76.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	/* position: fixed; */
+}
+
+#nav a{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 5px 5px;
+}
+
+li.active:after{
+	display: block;
+    width: 100%;
+    height: 5px;
+    content: "";
+    background-color: white;
+    border-radius: 5px;
+}
+
+#nav a:hover{
+	text-decoration: none;
+}
+
+/* 通知区域 */
+.tongzhi{
+	float: right;
+	position: relative;
+}
+
+#head>ul{
+	background-color: white;
+}
+
+
+
+/* 皮肤 */
+#skin{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url('../../images/teacher/u81.png');
+	background-size: cover;
+	margin-bottom: 10px;
+	
+}
+
+/* 通知 */
+#notice{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url('../../images/teacher/u85.png');
+	background-size: cover;
+	margin-bottom: 10px;
+}
+
+#skin:hover{
+	cursor: pointer;
+}
+
+#notice:hover{
+	cursor: pointer;
+}
+
+
+/* 头像 */
+#head{
+	margin-top: 7px;
+	padding: 0px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.headImg{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-image: url('../../images/portrait/title.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#xiangxi{
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	display: none;
+	z-index: 99999;
+}
+
+#xiangxi>li:first-child{
+	width: 200px;
+	display: relative;
+	background-color: #3399FF;
+	padding-top: 8px;
+	padding-left: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+#sign{
+	display: inline-block;
+	width: 100px;
+	position: absolute;
+	top: 25px;
+	margin-left: 15px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: white;
+
+}
+
+#xiangxi a{
+	color: black;
+	font-size: 14px;
+	display: inline-block;
+	width: 100%;
+}
+
+.a:hover{
+	background-color: #efefef;
+	cursor: pointer;
+}
+
+
+
+.a>a:active{
+	color: black;
+	text-decoration: none;
+}
+
+#head:hover{
+	width: 180px;
+}
+
+#head:hover ul{
+	display: block;
+}
+
+
+/* 中间区域 */
+.row{
+	text-align: center;
+}
+
+.content{
+	display: inline-block;
+	width: 70%;
+	background-color: white;
+	border-radius: 15px;
+	text-align: left;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.tx{
+    display: inline-block;
+	background-image: url("../../images/portrait/title.jpg");
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: solid 1px rgba(128,128,128,.2);
+	background-position: center;
+}
+
+
+.wenzi{
+	padding-top: 25px;
+}
+
+.form-group>p>span{
+	display: inline-block;
+	text-align: right;
+}
+
+#alter{
+	text-align: right;
+}
+
+#alter a{
+	display: inline-block;
+	background-color: rgba(255, 102, 0, 1);
+	color: white;
+}
+
+#alter a:hover{
+	text-decoration: none;
+}
+
+.access{
+	display: block;
+	background-color: rgba(51, 153, 255, 1);
+	color: white;
+	text-align: center;
+}
+
+.access:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.col-xs-7{
+	border-left: solid 1px rgba(128,128,128,.8);
+}
+
+.bottom{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .tx{
+    	width: 350px;
+    	height: 350px;
+    	background-size: 350px 350px;
+    }
+
+    .wenzi{
+    	font-size: 20px;
+    }
+
+    .form-group p{
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.form-group>p>span{
+		width: 180px;
+	}
+
+	#alter a{
+		padding: 15px 28px;
+		font-size: 18px;
+		border-top-left-radius: 15px;
+	}
+
+	.access{
+		padding: 30px 0px;
+		font-size: 24px;
+		margin: 0px -15px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .tx{
+    	width: 250px;
+    	height: 250px;
+    	background-size: 250px 250px;
+    }
+
+    .wenzi{
+    	font-size: 16px;
+    }
+
+    .form-group p{
+		font-size: 16px;
+		line-height: 35px;
+	}
+
+	.form-group>p>span{
+		width: 150px;
+	}
+
+	#alter a{
+		padding: 12px 24px;
+		font-size: 16px;
+		border-top-left-radius: 10px;
+	}
+
+	.access{
+		padding: 25px 0px;
+		font-size: 22px;
+		margin: 0px -15px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .tx{
+    	width: 200px;
+    	height: 200px;
+    	background-size: 200px 200px;
+    }
+
+    .wenzi{
+    	font-size: 14px;
+    }
+
+    .form-group p{
+		font-size: 14px;
+		line-height: 25px;
+	}
+
+	.form-group>p>span{
+		width: 100px;
+	}
+
+	#alter a{
+		padding: 8px 20px;
+		font-size: 14px;
+		border-top-left-radius: 8px;
+	}
+
+	.access{
+		padding: 20px 0px;
+		font-size: 20px;
+		margin: 0px -15px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+    .tx{
+    	width: 50px;
+    	height: 50px;
+    	background-size: 50px 50px;
+    }
+
+    .wenzi{
+    	font-size: 12px;
+    }
+
+    .form-group p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	#alter a{
+		padding: 5px 15px;
+		font-size: 12px;
+		border-top-left-radius: 4px;
+	}
+
+	.access{
+		padding: 15px 0px;
+		font-size: 18px;
+		margin: 0px -15px;
+	}
+}

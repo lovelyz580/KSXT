@@ -1,0 +1,382 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+
+.exam{
+	background-color: rgba(255,255,255,.8);
+}
+
+
+/* 删除按钮 */
+.panel-heading>ul>li>button{
+	border: none;
+	color: #57B2DF;
+	position: relative;
+	padding-left: 30px;
+	border-radius: 4px;
+	padding: 6px 12px;
+	background-color: white;
+	border: solid 1px #57B2DF;
+}
+
+.panel-heading>ul>li>button:hover{
+	background-color: #57B2DF;
+	color: white;
+}
+
+
+
+/* 搜索框 */
+.input{
+	position: relative;
+}
+
+.submit{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	color: #111010;
+	font-size: 18px;
+}
+
+.submit:hover{
+	cursor: pointer;
+}
+
+
+/* 题库 */
+#questions{
+	position: relative;
+}
+
+#questions>span{
+	display: inline-block;
+	color: #57B2DF;
+	border-radius: 4px;
+	padding: 6px 12px;
+	background-color: white;
+	border: solid 1px #57B2DF;
+	width: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#questions:hover{
+	cursor: pointer;
+}
+
+#questions:hover ul{
+	display: block;
+	position: absolute;
+	top: 35px;
+}
+
+#questions:hover>span{
+	background-color: #57B2DF;
+	color: white;
+}
+
+#questions ul{
+	background-color: white;
+	display: none;
+}
+
+#questions ul>li>a{
+	color: #57B2DF;
+	display: inline-block;
+	border: solid 1px #57B2DF;
+	width: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 0px;
+}
+
+#questions ul>li>a:hover{
+	color: white;
+	background-color: #57B2DF;
+	text-decoration: none;
+}
+
+/* 题型 */
+#patterns{
+	position: relative;
+}
+
+#patterns>a{
+	display: inline-block;
+	color: #57B2DF;
+	border-radius: 4px;
+	padding: 6px 12px;
+	background-color: white;
+	border: solid 1px #57B2DF;
+}
+
+#patterns:hover{
+	cursor: pointer;
+}
+
+#patterns:hover ul{
+	display: block;
+	position: absolute;
+	top: 35px;
+}
+
+#patterns:hover>a{
+	background-color: #57B2DF;
+	color: white;
+	text-decoration: none;
+}
+
+#patterns ul{
+	background-color: white;
+	display: none;
+}
+
+#patterns ul>li>a{
+	color: #57B2DF;
+	display: inline-block;
+	border: solid 1px #57B2DF;
+	width: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 0px;
+}
+
+#patterns ul>li>a:hover{
+	color: white;
+	background-color: #57B2DF;
+	text-decoration: none;
+}
+
+table tbody tr td button{
+	border: none;
+	border: solid 1px #57B2DF;
+	color: #57B2DF;
+	background-color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+}
+
+table tbody tr td button:hover{
+	background-color: #57B2DF;
+	color: white;
+}
+
+/* 试题查看 */
+.panels{
+	width: 60%;
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	z-index: 99;
+	display: none;
+	position: fixed;
+}
+
+.panels .panel-heading{
+	background-color: #5AB6E6;
+	color: white;
+	font-size: 24px;
+}
+
+.panels .panel-body{
+	height: 80vh;
+	overflow: auto;
+}
+
+.panels .panel-heading>img{
+	height: 30px;
+	float: right;
+}
+
+.seeSingle{
+	top: 50px;
+}
+
+.seeSingle .consult{
+	margin: 15px 30px 15px 30px;
+	padding: 15px 0px 0px 15px;
+	background-color: #F7F7F7;
+}
+/* 单选状态下红色显示 */
+.seeSingle .consult span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+/* 展开解析 */
+.seeSingle .consult button{
+	background-color: #FD4B4B;
+	border: none;
+	color: white;
+	outline: none;
+	padding: 10px 15px;
+	border-top-left-radius: 10px;
+	outline: none;
+
+}
+/* 单选解析 */
+.seeSingle .consult .analysis{
+	display: none;
+}
+
+/* 单选返回按钮 */
+.seeSingle .btngroup button{
+	margin-top: 30px;
+	background-color: #5AB6E6;
+	border: none;
+	color: white;
+	outline: none;
+	padding: 10px 30px;
+	margin-left: 30px;
+}
+
+/* 查看填空题 */
+.seeCompletion{
+	top: 50px;
+}
+.seeCompletion .panel-body p{
+	line-height: 30px;
+}
+
+/* 填空题参考答案 */
+.seeCompletion .consult{
+	background-color: #F7F7F7;
+	color: #5E5E5E;
+	font-size: 16px;
+	margin: 15px 30px;
+}
+
+.seeCompletion .consult p>span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+
+/* 查看填空题展开解析按钮 */
+.seeCompletion .consult p>button{
+	padding: 5px 30px;
+	color: white;
+	background-color: rgba(255, 0, 0, 0.698039215686274);
+	border-top-left-radius: 10px;
+	border: none;
+	outline: none;
+
+}
+/* 填空题解析 */
+.seeCompletion .consult .analysis{
+	display: none;
+}
+
+.seeCompletion .btngroup button{
+	background-color: rgba(18, 150, 219, 0.698039215686274);
+	color: white;
+	border: none;
+	padding: 8px 30px;
+	outline: none;
+}
+
+/* 简答题 */
+.seeEssay{
+	top: 50px;
+	/* position: fixed; */
+}
+
+.seeEssay .consult{
+	background-color: #F7F7F7;
+	color: #5E5E5E;
+	font-size: 16px;
+	margin: 15px 30px;
+}
+
+.seeEssay .consult p span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+
+/* 查看填空题展开解析按钮 */
+.seeEssay .consult p>button{
+	padding: 5px 30px;
+	color: white;
+	background-color: rgba(255, 0, 0, 0.698039215686274);
+	border-top-left-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+/* 解析 */
+
+
+.seeEssay .analysis{
+	display: none;	
+}
+
+/* 问答题查看返回按钮 */
+.seeEssay .btngroup button{
+	background-color: rgba(18, 150, 219, 0.698039215686274);
+	color: white;
+	border: none;
+	padding: 8px 30px;
+	outline: none;
+}
+
+

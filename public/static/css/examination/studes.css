@@ -1,0 +1,66 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+.right{
+	background-color: rgba(255,255,255,.8);
+}

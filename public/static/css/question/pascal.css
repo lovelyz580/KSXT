@@ -1,0 +1,504 @@
+.middle{
+	padding-top: 30px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+.deleteimg{
+	position: relative;
+	border: none;
+	padding: 5px 15px;
+	padding-left: 30px;
+	color: #1296DB;
+	border: solid 1px #1296DB;
+	border-radius: 5px;
+	background: none;
+	width: 80px;
+}
+
+.deleteimg span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url("../../images/question/u503.png");
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	margin-left: 10px;
+}
+
+.deleteimg:hover{
+	background-color: #1296DB;
+	color: white;
+}
+
+.deleteimg:hover span{
+	background-image: url("../../images/question/u511.png");
+}
+
+
+.right{
+	border-radius: 15px;
+	background-color: rgba(255,255,255,.8);
+	min-height: 550px !important;
+	z-index: 88;
+}
+
+.btn-group>button{
+	border: solid 1px #1296DB;
+	background-color: transparent;
+	color: #1296DB;
+}
+
+.btn-group>button:hover{
+	background-color: #1296DB;
+	color: white;
+}
+
+.btn-group>button:focus{
+	background-color: transparent;
+	color: #1296DB;
+}
+
+.addPascal{
+	width: 80px;
+	padding: 5px 5px;
+	color: #1296DB;
+	border: solid 1px #1296DB;
+	border-radius: 5px;
+	position: relative;
+}
+
+.addPascal:hover{
+	background-color: #1296DB;
+	color: white;
+	cursor: pointer;
+
+}
+
+.addPascal:hover ul{
+	display: block;
+}
+
+.pattern{
+	position: absolute;
+	top: 33px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	display: none;
+}
+
+.pattern a{
+	display: block;
+	color: #1296DB;
+	padding: 5px 0px;
+}
+
+.pattern a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.pattern>li{
+	margin: 5px 0px;
+	border: solid 1px #1296DB;
+}
+
+.pattern>li:hover{
+	background-color: #1296DB;
+}
+
+
+
+/* 试题查看 */
+.panel{
+	width: 60%;
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	z-index: 99;
+	display: none;
+	position: fixed;
+}
+
+.panel-heading{
+	background-color: #5AB6E6;
+	color: white;
+	font-size: 24px;
+}
+
+.panel-body{
+	height: 80vh;
+	overflow: auto;
+}
+
+.panel-heading>img{
+	height: 30px;
+	float: right;
+}
+
+.seeSingle{
+	top: 50px;
+}
+
+.seeSingle .consult{
+	margin: 15px 30px 15px 30px;
+	padding: 15px 0px 0px 15px;
+	background-color: #F7F7F7;
+}
+/* 单选状态下红色显示 */
+.seeSingle .consult span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+/* 展开解析 */
+.seeSingle .consult button{
+	background-color: #FD4B4B;
+	border: none;
+	color: white;
+	outline: none;
+	padding: 10px 15px;
+	border-top-left-radius: 10px;
+	outline: none;
+
+}
+/* 单选解析 */
+.seeSingle .consult .analysis{
+	display: none;
+}
+
+/* 单选返回按钮 */
+.seeSingle .btngroup button{
+	margin-top: 30px;
+	background-color: #5AB6E6;
+	border: none;
+	color: white;
+	outline: none;
+	padding: 10px 30px;
+	margin-left: 30px;
+}
+
+/* 编辑 */
+/* 管理知识点按钮 */
+.editSingle .knowledge{
+	border: none;
+	padding: 7px 15px;
+	color: white;
+	background-color: #5AB6E6;
+	border-radius: 5px;
+}
+
+.editSingle .knowledge:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.editSingle .knowledge:focus{
+	color: white;
+	text-decoration: none;
+}
+/* //管理知识点按钮 */
+
+/* 单选题答案按钮 */
+.editSingle .radio label{
+	background-image: url('../../images/question/u1818.png');
+	background-size: 20px 20px;
+}
+/* 按钮组 */
+.editSingle .btngroup{
+	margin-top: 20px;
+}
+
+.editSingle .btngroup input{
+	width: 49%;
+	padding: 15px 0px;
+	border: none;
+	color: white;
+	outline: none;
+}
+/* 保存按钮 */
+.editSingle .btngroup input:first-child{
+	background-color: #FF4D4D;
+
+}
+/* 取消按钮 */
+.editSingle .btngroup input:last-child{
+	background-color: #5AB6E6;
+}
+/* 当前答案按钮 */
+.editSingle .radio label.active{
+	background-image: url('../../images/question/u1817.png');
+}
+
+.input-group-addon{
+	background-color: white !important;
+}
+
+.stem{
+	width: 20px !important;
+}
+
+td.stem p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 50vw;
+}
+
+.editSingle{
+	/* position: absolute; */
+	top: 50px;
+	/* position: fixed; */
+}
+
+
+/* 查看填空题 */
+.seeCompletion{
+	top: 50px;
+}
+.seeCompletion .panel-body p{
+	line-height: 30px;
+}
+
+/* 填空题参考答案 */
+.seeCompletion .consult{
+	background-color: #F7F7F7;
+	color: #5E5E5E;
+	font-size: 16px;
+	margin: 15px 30px;
+}
+
+.seeCompletion .consult p>span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+
+/* 查看填空题展开解析按钮 */
+.seeCompletion .consult p>button{
+	padding: 5px 30px;
+	color: white;
+	background-color: rgba(255, 0, 0, 0.698039215686274);
+	border-top-left-radius: 10px;
+	border: none;
+	outline: none;
+
+}
+/* 填空题解析 */
+.seeCompletion .consult .analysis{
+	display: none;
+}
+
+.seeCompletion .btngroup button{
+	background-color: rgba(18, 150, 219, 0.698039215686274);
+	color: white;
+	border: none;
+	padding: 8px 30px;
+	outline: none;
+}
+
+
+/* 编辑填空题 */
+.editCompletion{
+	top: 30px;
+	/* position: fixed; */
+}
+/* 管理知识点按钮 */
+.editCompletion .knowledge{
+	border: none;
+	padding: 7px 15px;
+	color: white;
+	background-color: #5AB6E6;
+	border-radius: 5px;
+}
+
+.editCompletion .knowledge:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.editCompletion .knowledge:focus{
+	color: white;
+	text-decoration: none;
+}
+/* //管理知识点按钮 */
+
+
+.editCompletion .input-group span:last-child:hover{
+	color: white;
+	background-color: #5AB6E6 !important;
+	cursor: pointer;
+}
+
+.editCompletion .addoption{
+	border: none;
+	color: white;
+	background-color: #5AB6E6 !important;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+.editCompletion .btngroup input{
+	width: 49%;
+	padding: 15px 0px;
+	border: none;
+	color: white;
+	outline: none;
+}
+
+/* 保存按钮 */
+.editCompletion .btngroup input:first-child{
+	background-color: #FF4D4D;
+
+}
+/* 取消按钮 */
+.editCompletion .btngroup input:last-child{
+	background-color: #5AB6E6;
+}
+
+
+/* 简答题 */
+.seeEssay{
+	top: 50px;
+	/* position: fixed; */
+}
+
+.seeEssay .consult{
+	background-color: #F7F7F7;
+	color: #5E5E5E;
+	font-size: 16px;
+	margin: 15px 30px;
+}
+
+.seeEssay .consult p span{
+	color: rgba(255, 0, 0, 0.698039215686274);
+}
+
+/* 查看填空题展开解析按钮 */
+.seeEssay .consult p>button{
+	padding: 5px 30px;
+	color: white;
+	background-color: rgba(255, 0, 0, 0.698039215686274);
+	border-top-left-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+/* 解析 */
+
+
+.seeEssay .analysis{
+	display: none;	
+}
+
+/* 问答题查看返回按钮 */
+.seeEssay .btngroup button{
+	background-color: rgba(18, 150, 219, 0.698039215686274);
+	color: white;
+	border: none;
+	padding: 8px 30px;
+	outline: none;
+}
+
+
+/* 编辑问答题 */
+.editEssay{
+	top: 30px;
+}
+
+/* 管理知识点按钮 */
+.editEssay .knowledge{
+	border: none;
+	padding: 7px 15px;
+	color: white;
+	background-color: #5AB6E6;
+	border-radius: 5px;
+}
+
+.editEssay .knowledge:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.editEssay .knowledge:focus{
+	color: white;
+	text-decoration: none;
+}
+/* //管理知识点按钮 */
+
+.editEssay .btngroup input{
+	width: 49%;
+	padding: 15px 0px;
+	border: none;
+	color: white;
+	outline: none;
+}
+
+/* 保存按钮 */
+.editEssay .btngroup input:first-child{
+	background-color: #FF4D4D;
+
+}
+/* 取消按钮 */
+.editEssay .btngroup input:last-child{
+	background-color: #5AB6E6;
+}

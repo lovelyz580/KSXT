@@ -1,0 +1,306 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+
+.panel{
+	background-color: rgba(255,255,255,.8);
+}
+
+.panel .btn-group button{
+	position: relative;
+	color: #57B2DF;
+	outline: none;
+}
+
+.panel .btn-group button:hover{
+	color: white;
+	background-color: #57B2DF;
+	border: solid 1px #57B2DF;
+}
+
+.panel .btn-group button:first-child{
+	padding-left: 30px;
+}
+.panel .btn-group button:last-child{
+	padding-left: 30px;
+}
+
+.panel .btn-group button:first-child span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u517.png');
+	background-size: 18px 18px;
+	position: absolute;
+	top: 5px;
+	margin-left: -20px;
+}
+
+.panel .btn-group button:last-child span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u503.png');
+	background-size: 18px 18px;
+	position: absolute;
+	top: 5px;
+	margin-left: -20px;
+}
+
+.option{
+	width: 120px;
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+}
+
+.option:hover{
+	background-color: white;
+	cursor: pointer;
+}
+
+.option .radio label{
+	background-image: url('../../images/question/u596.png');
+	background-size: 20px 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.option p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: nowrap;
+}
+
+
+.option label.actives{
+	background-image: url('../../images/question/u594.png');
+}
+
+/* 修改题库信息 */
+.alter{
+	width: 30%;
+	background-color: white;
+	padding: 40px 40px 20px 40px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	display: none;
+}
+
+.alter p{
+	font-size: 18px;
+}
+
+.alter img{
+	margin: 0 auto;
+}
+
+.alter .img{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.img button{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	border: none;
+	outline: none;
+	width: 60%;
+	padding: 20px 0px;
+	color: white;
+	font-size: 16px;
+	background-color: rgba(128,128,128,.6);
+}
+
+.img input{
+	visibility: hidden;
+}
+
+.alter textarea{
+	height: 100px;
+}
+
+
+.alterbtn{
+	margin-top: 20px;
+}
+
+.alterbtn button{
+	color: white;
+	outline: none;
+	padding: 10px 0px;
+	width: 49%;
+	border-radius: 5px;
+	border: none;
+}
+
+.alterbtn button:first-child{
+	background-color: #FF3300;
+}
+
+.alterbtn button:last-child{
+	background-color: #5AB6E6;
+}
+
+
+
+/* 重命名 */
+.altername{
+	width: 30%;
+	height: 250px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	display: none;
+}
+
+.altername .panel-heading{
+	background-color: #F3F8FF;
+}
+
+.altername .panel-heading>span{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+
+.altername .panel-heading>span:hover{
+	color: #169BD5;
+}
+
+.altername .panel-body{
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.altername .panel-body>div{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.namebtn{
+	padding-top: 40px;
+}
+
+.namebtn button{
+	width: 35%;
+	padding: 10px 0px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.namebtn button:first-child{
+	color: white;
+	background-color: #169BD5;
+	margin-right: 14%;
+}
+
+.namebtn button:last-child{
+	background-color: white;
+	color: #169BD5;
+	border: solid 1px #169BD5;
+	margin-left: 14%;
+}
+
+
+.empty{
+	padding-top: 200px;
+	line-height: 40px;
+	padding-bottom: 200px;
+}
+
+.empty p{
+	font-size: 18px;
+}
+
+.empty a{
+	padding: 15px 40px;
+	color: white;
+	background-color: #169BD5;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.empty a:hover{
+	color: white;
+	text-decoration: none;
+}
+.empty a:focus{
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,41 @@
+/* 内容区域 */
+.content{
+	width: 100%;
+	height: 35vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	text-align: center;
+}
+/* 标题 */
+.content>img{
+	width: 55vw;
+}
+
+/* 按钮 */
+.content>a{
+	width: 28vw;
+	height: 11vh;
+	border: none;
+	border-radius: 15px;
+	background-color: rgba(236, 42, 87, .5);
+	background-image: url('../../images/login/btntitle.png');
+	background-size: 63% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	outline: none;
+}
+.content>a:active{
+	background-color: rgba(236, 42, 87, .7);
+}
+
+

@@ -1,0 +1,106 @@
+.middle{
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.seeQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u424.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.addQuestion span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('../../images/question/u420.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-right: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.seeQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+}
+
+.addQuestion a{
+	color: white;
+	position: relative;
+	padding-left: 23px;
+	
+}
+
+.seeQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.addQuestion a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.left>li{
+	padding: 5px 0px;
+	margin: 5px -15px;
+}
+
+.left>li:hover{
+	background-color: rgba(154,154,154,.5);
+}
+
+
+/* 右边 */
+.panel{
+	background-color: rgba(255,255,255,.8);
+}
+
+.cover{
+	position: relative;
+}
+
+.cover input{
+	visibility: hidden;
+}
+
+.cover img{
+	display: inline-block;
+}
+
+.cover button{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 40%;
+	border: none;
+	padding: 15px 0px;
+	background-color: rgba(89,89,89,.7);
+	font-size: 18px;
+	display: none;
+}
+
+#submit{
+	padding: 15px 50px;
+	font-size: 24px;
+	color: white;
+	border: none;
+	background-color: #FF3300;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	outline: none;
+}
