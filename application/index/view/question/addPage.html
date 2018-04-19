@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> {block name="head"}
+    <title>题库-新增题库</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/question/addpage.css">
+	<script type="text/javascript" src="__STATIC__/js/question/addpage.js"></script>
+    {/block}
+</head>
+
+<body>
+    {block name="active"}
+    <li class="active">
+        <a href="{:url('index/Question/select')}">题库管理</a>
+    </li>
+    {/block} 
+    {extend name="teacher/alterDetails"} 
+    {block name="middle"}
+    <div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9 text-left">
+            <div class="panel">
+            	<div class="panel-heading">
+	            	<h2 class="text-center">新建题库</h2>
+            	</div>
+            	<div class="panel-body">
+            		<div class="row">
+		            	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 cover">
+		            		<h3>题库封面</h3>
+		            		<input type="file" name="file">
+		            		<div>
+		            			<img src="__STATIC__/images/cover/589.png" class="img-responsive">
+		            			<button class="shade">修改封面</button>
+		            		</div>
+		            	</div>
+		            	<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+		            		<form class="form-horizontal">
+		            			<div class="form-group">
+		            				<label class="control-label col-xs-2">题库名称：</label>
+		            				<div class="col-xs-5">
+		            					<input type="text" placeholder="请输入题库名称" class="form-control">
+		            				</div>
+		            			</div>
+		            			<div class="form-group">
+		            				<label class="control-label col-xs-2">题库简介：</label>
+		            				<div class="col-xs-5">
+		            					<textarea class="form-control" rows="7" placeholder="请输入题库简介(可不填)"></textarea>
+		            				</div>
+		            			</div>
+		            		</form>
+		            		
+		            	</div>
+		            </div>
+		            <div class="row text-center">
+            			<button id="submit">创建题库</button>
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+    {/block}
+</body>
+
+</html>

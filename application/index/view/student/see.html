@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{block name="head"}
+	<title>班级-学生查看</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/student/see.css">
+	<script type="text/javascript" src="__STATIC__/js/student/see.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+	{block name="activec"}
+    <li class="active">
+        <a href="{:url('index/Course/see')}">课程管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left right">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>学生查看</li>
+						<li class="pull-right">
+							<button class="delete">移出</button>
+						</li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					<table class="table-responsive table">
+						<thead>
+							<td>
+								<input type="checkbox" class="quanxuan">
+							</td>
+							<td>学号</td>
+							<td>姓名</td>
+							<td>性别</td>
+							<td>院系</td>
+							<td>班级</td>
+							<td>电子邮件</td>
+						</thead>
+						<tbody>
+							{volist name="sdata" id="value" empty="<tr><td colspan='7'><h4 class='text-center'>该班级还没有学生报名</h4></td></tr>"}
+							<tr>
+								<td>
+									<input type="checkbox" value="{$value.id}">
+								</td>
+								<td>{$value.user}</td>
+								<td>{$value.name}</td>
+								<td>{$value.sex}</td>
+								<td>{$value.fname}</td>
+								<td>{$value.class}</td>
+								<td>{$value.email}</td>
+							</tr>
+							{/volist}
+						</tbody>
+					</table>
+				</div>
+			</div>
+        </div>
+    </div>
+	{/block}
+
+</body>
+</html>

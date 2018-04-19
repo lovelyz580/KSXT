@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{block name="head"}
+	<title>试卷</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/examination/examination.css">
+	<script type="text/javascript" src="__STATIC__/js/examination/examination.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+	{block name="actives"}
+    <li class="active">
+        <a href="{:url('index/Examination/see')}">试卷管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left exam">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>全部试卷</li>
+						<li class="pull-right">
+							<form action="{:url('index/Examination/select')}" method="post" id="form">
+								<div class="form-group">
+									<div class="input">
+										<input type="text" name="search" class="form-control" placeholder="搜索试卷">
+										<span class="submit glyphicon glyphicon-search"></span>
+									</div>
+								</div>
+							</form>
+						</li>
+						<li class="pull-right"><button><span></span>删除</button></li>
+						<li class="pull-right">
+							<a href="javascript:void(0);">添加试卷</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="panel-body">
+					<table class="table-responsive table text-center">
+						<thead>
+							<td width="20">
+								<input type="checkbox" class="quanxuan">
+							</td>
+							<td>试卷名</td>
+							<td>总分</td>
+							<td>修改日期</td>
+							<td>操作</td>
+						</thead>
+						<tbody>
+							{volist name="examData" id="value" empty="<tr><td colspan='5'>暂无试卷，快来创建吧！</td></tr>"}
+							<tr>
+								<td>
+									<input type="checkbox" value="{$value.id}">
+								</td>
+								<td class="{$value.id}"><a href="{:url('index/Examinationtext/see',['id'=>$value.id])}">{$value.examination_name}</a></td>
+								<td>{$value.score}分</td>
+								<td>{$value.examination_date}</td>
+								<td>
+									<div class="btn-group">
+										<a href="{:url('index/Examination/alter',['id'=>$value.id])}" class="btn btn-primary">查看</a>
+										<a href="javascript:void(0);" class="btn btn-primary" value="{$value.id}" onclick="edit('{$value.id}','{$value.examination_name}')">编辑</a>
+										<a href="javascript:void(0);" class="btn btn-danger" onclick="del('{$value.id}')">删除</a>
+									</div>
+								</td>
+							</tr>
+							{/volist}
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+        </div>
+    </div>
+    <!-- 重命名 -->
+	<div class="panel altername">
+		<div class="panel-heading">
+			重命名
+			<span class="pull-right glyphicon glyphicon-remove"></span>
+		</div>
+		<div class="panel-body text-center">
+			<div class="col-xs-9">
+				<input type="text" class="form-control" id="inputName">
+				<div class="namebtn text-left">
+					<button>重命名</button>
+					<button class="pull-right">取消</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 添加试卷 -->
+	<div class="panel addExam">
+		<div class="panel-heading">
+			添加试卷
+			<span class="pull-right glyphicon glyphicon-remove"></span>
+		</div>
+		<div class="panel-body text-center">
+			<div class="col-xs-9">
+				<input type="text" class="form-control" id="inputExam" placeholder="请输入试卷名称">
+				<div class="namebtn text-left">
+					<button>确定</button>
+					<button class="pull-right">取消</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	{/block}
+</body>
+</html>

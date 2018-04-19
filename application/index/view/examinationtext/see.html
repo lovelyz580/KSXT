@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{block name="head"}
+	<title>试卷预览</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/examinationtext/exam.css">
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+	{block name="actives"}
+    <li class="active">
+        <a href="{:url('index/Examination/see')}">试卷管理</a>
+    </li>
+    {/block}
+
+	{block name="middle"}
+	<div class="panel">
+		<div class="panel-heading">
+			试卷预览
+		</div>
+		<div class="panel-body">
+			<h2 class="text-center">{$name.examination_name}</h2>
+			{if condition="!(!$single)"}
+			<div class="single">
+				<h3>一、单选题</h3>
+				{volist name="single" key="k" id="value"}
+				<div class="row">
+					<p><pre>{$k}、{$value.name}</pre></p>
+					<p class="opt {if condition='$value.answer eq 1'}answer{/if}">A {$value.options[0]}</p>
+					<p class="opt {if condition='$value.answer eq 2'}answer{/if}">B {$value.options[1]}</p>
+					<p class="opt {if condition='$value.answer eq 3'}answer{/if}">C {$value.options[2]}</p>
+					<p class="opt {if condition='$value.answer eq 4'}answer{/if}">D {$value.options[3]}</p>
+				</div>
+				{/volist}
+			</div>
+			{/if}
+			{if condition="(!(!$completion))"}
+			<div class="completion">
+				<h3>二、填空题</h3>
+				{volist name="completion" id="value" key="k"}
+				<div class="row">
+					<p>{$k}、{$value.name}</p>
+				</div>
+				{/volist}
+			</div>
+			{/if}
+			{if condition="!(!$essay)"}
+			<div class="essay">
+				<h3>三、问答题</h3>
+				{volist name="essay" id="value" key="k"}
+				<div class="row">
+					<p>{$k}、{$value.name}</p>
+					<p class="answer">{$value.essayquestion_answer}</p>
+				</div>
+				{/volist}
+			</div>
+			{/if}
+		</div>
+	</div>
+	{/block}
+</body>
+</html>

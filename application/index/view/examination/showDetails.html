@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{block name="head"}
+    <title>学生-修改信息</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/examination/showDetails.css">
+    {/block}
+</head>
+<body>
+	{extend name="student/alterDetails"}
+
+	{block name="actives"}
+    <li>
+        <a href="{:url('index/Studentper/ksxt')}">考试信息</a>
+    </li>
+    {/block}
+
+
+	{block name="middle"}
+	<div class="container">
+		<div class="panel">
+			<div class="panel-heading">
+				<ul class="list-unstyled list-inline text-center">
+					<li><h3>{$exam.name}</h3></li>
+				</ul>
+				<ul class="list-unstyled">
+					<li>考试时间：{$exam.strat}</li>
+					<li>考试时长：{$exam.length}分钟</li>
+					<li>拖考时长：{$exam.size}分钟</li>
+					<li>总分：{$exam.score}分</li>
+					<li>成绩：{$exam.performance}分</li>
+				</ul>
+			</div>
+			<div class="panel-body">
+				{if condition="!(!$single)"}
+				<div class="single">
+					<h3>一、单选题</h3>
+					{volist name="single" key="k" id="value"}
+					<div class="row">
+						<p><pre>{$k}、{$value.name}</pre></p>
+						<p class="opt {if condition='$value.answer eq 1 && $value.answer eq $value.Sanswer'}answer{/if}" style="color:{if condition='$value.answer eq 1 && $value.answer neq $value.Sanswer'}red{/if};">A {$value.options[0]}</p>
+						<p class="opt {if condition='$value.answer eq 2 && $value.answer eq $value.Sanswer'}answer{/if}" style="color:{if condition='$value.answer eq 2 && $value.answer neq $value.Sanswer'}red{/if};">B {$value.options[1]}</p>
+						<p class="opt {if condition='$value.answer eq 3 && $value.answer eq $value.Sanswer'}answer{/if}" style="color:{if condition='$value.answer eq 3 && $value.answer neq $value.Sanswer'}red{/if};">C {$value.options[2]}</p>
+						<p class="opt {if condition='$value.answer eq 4 && $value.answer eq $value.Sanswer'}answer{/if}" style="color:{if condition='$value.answer eq 4 && $value.answer neq $value.Sanswer'}red{/if};">D {$value.options[3]}</p>
+						<p><span>参考答案：
+						{switch name="$value.Sanswer"}
+							{case value="1"}A{/case}
+							{case value="2"}B{/case}
+							{case value="3"}B{/case}
+							{case value="4"}D{/case}
+						{/switch}
+						</span></p>
+					</div>
+					{/volist}
+				</div>
+				{/if}
+				{if condition="(!(!$completion))"}
+				<div class="completion">
+					<h3>二、填空题</h3>
+					{volist name="completion" id="value" key="k"}
+					<div class="row">
+						<p>{$k}、{$value.name}</p>
+						<p>参考答案：<span>{$value.answer}</span></p>
+					</div>
+					{/volist}
+				</div>
+				{/if}
+				{if condition="!(!$essay)"}
+				<div class="essay">
+					<h3>三、问答题</h3>
+					{volist name="essay" id="value" key="k"}
+					<div class="row">
+						<p>{$k}、{$value.name}</p>
+						<p class="answer">{$value.Eanswer}</p>
+						<p>参考答案：<span class="answer">{$value.answer}</span></p>
+					</div>
+					{/volist}
+				</div>
+				{/if}
+			</div>
+		</div>
+	</div>
+	{/block}
+</body>
+</html>

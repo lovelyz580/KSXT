@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{block name="head"}
+	<title>班级查看</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/grade/see.css">
+	<script type="text/javascript" src="__STATIC__/js/grade/see.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name='teacher/alterDetails'}
+
+	{block name="activec"}
+    <li class="active">
+        <a href="{:url('index/Course/see')}">课程管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left right">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>班级管理</li>
+						<li class="pull-right">
+							<button class="delete">删除</button>
+						</li>
+						<li class="pull-right">
+							<button class="alter">编辑</button>
+						</li>
+						<li class="pull-right">
+							<button class="addgrade">新增</button>
+						</li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					{volist name = "grade" id="value" empty="<h3 class='text-center'>还没有班级，赶快创建吧！</h3>"}
+					<div class="options pull-left">
+						<span value="{$value.id}"></span>
+						<div>
+							<img src="__STATIC__/images/question/bad62b5cdbd97bb11ca6a431b308d331.jpg" class="img-responsive">
+							<a href="{:url('index/Student/see',['id'=>$value.id])}" class="btn btn-danger">学生</a>
+							<a href="{:url('index/Published/see',['id'=>$value.id])}" class="btn btn-danger">试卷</a>
+						</div>
+						<p>{$value.class_name}</p>
+					</div>
+					{/volist}
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="panel grade">
+    	<div class="panel-heading">
+    		班级新增
+    	</div>
+    	<div class="panel-body">
+    		<form class="form form-horizontal">
+    			<div class="form-group">
+    				<label class="control-label col-xs-4">名称：</label>
+    				<div class="col-xs-6">
+    					<input type="text" name="name" class="form-control" placeholder="输入课程名称">
+    				</div>
+    			</div>
+    			<div class="form-group">
+    				<label class="control-label col-xs-4">限制人数：</label>
+    				<div class="col-xs-6">
+    					<input type="number" name="sum" class="form-control" placeholder="班级容纳人数">
+    				</div>
+    			</div>
+    			<div class="form-group">
+    				<label class="control-label col-xs-4">邀请码：</label>
+    				<div class="col-xs-6">
+    					<input type="text" name="code" class="form-control" placeholder="进班钥匙">
+    				</div>
+    			</div>
+    		</form>
+    		<div class="text-center">
+				<button class="save">保存</button>
+				<button class="esc">取消</button>
+			</div>
+    	</div>
+    </div>
+    {/block}
+</body>
+</html>

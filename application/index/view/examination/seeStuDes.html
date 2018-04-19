@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{block name="head"}
+	<title>试卷考生信息查看</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/examination/studes.css">
+	{/block}
+</head>
+<body>
+	{extend name='teacher/alterDetails'}
+
+	{block name="activec"}
+    <li class="active">
+        <a href="{:url('index/Course/see')}">课程管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel right text-left">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>试卷考生信息查看</li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					<table class="table-responsive table">
+						<thead>
+							<th>序号</th>
+							<th>学号</th>
+							<th>姓名</th>
+							<th>性别</th>
+							<th>班级</th>
+							<th>成绩</th>
+							<th>等级</th>
+							<th>状态</th>
+						</thead>
+						<tbody>
+							{volist name="student" id="value" key="k"}
+							<tr>
+								<td>{$k}</td>
+								<td>{$value.user}</td>
+								<td><a href="#">{$value.name}</a></td>
+								<td>{$value.sex}</td>
+								<td>{$value.class}</td>
+								<td>{$value.performance}</td>
+								<td>{$value.rank}</td>
+								<td>已阅</td>
+							</tr>
+							{/volist}
+						</tbody>
+					</table>
+				</div>
+			</div>
+        </div>
+    </div>
+ 	{/block}
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {block name="head"}
+    <title>题库-题库查看</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/question/question.css">
+    <script type="text/javascript" src="__STATIC__/js/question/question.js"></script>
+    {/block}
+</head>
+
+<body>
+    {block name="active"}
+    <li class="active">
+        <a href="{:url('index/Question/select')}">题库管理</a>
+    </li>
+    {/block} {extend name="teacher/alterDetails"} {block name="middle"}
+    <div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+            <div class="panel text-left">
+                <div class="panel-heading">
+                    全部题库
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li>
+                            <div class="form-group has-success has-feedback" style="width:200px; display: inline-block;">
+                            	<form method="post" action="{:url('index/Question/search')}" id="form">
+	                                <div class="input-group">
+	                                    <input type="text" class="form-control" placeholder="搜索题库..." name="search">
+	                                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+	                                </div>
+	                            </form>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default altercover">
+                                    <span></span> 修改
+                                </button>
+                                <button type="button" class="btn btn-default rename">重命名</button>
+                                <button type="button" class="btn btn-default delete">
+                                    <span></span> 删除
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-body">
+                    {volist name="question" id="value" empty="
+						<div class='empty text-center'>
+							<p>没有查询到题库，快来创建吧！</p>
+							<a href='/ksxt/public/addQpage.html'>创建题库</a>
+						</div>
+                    "}
+                    <div class="option">
+                        <div class="radio">
+                            <label value="{$value.id}">
+                            </label>
+                        </div>
+                        <a href="{:url('index/Pascal/see',['id'=>$value.id])}">
+                        	<img src="{$value.question_img}" class="img-responsive">
+                        </a>
+                        <p>{$value.question_name}</p>
+                    </div>
+                    {/volist}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 修改题库信息 -->
+    <div class="alter text-center">
+        <p>题库封面</p>
+        <div class="img">
+            <input type="file">
+            <img src="__STATIC__/images/question/u589.png" class="img-responsive">
+            <button>修改封面</button>
+        </div>
+        <p>题库简介</p>
+        <textarea class="form-control"></textarea>
+        <div class="alterbtn">
+            <button>保存</button>
+            <button>关闭</button>
+        </div>
+    </div>
+
+    <!-- 重命名 -->
+	<div class="panel altername">
+		<div class="panel-heading">
+			重命名
+			<span class="pull-right glyphicon glyphicon-remove"></span>
+		</div>
+		<div class="panel-body text-center">
+			<div class="col-xs-9">
+				<input type="text" class="form-control">
+				<div class="namebtn">
+					<button>重命名</button>
+					<button>取消</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    {/block}
+</body>
+
+</html>

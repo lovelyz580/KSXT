@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{block name="head"}
+	<title>教师-个人信息</title>
+	{/block}
+</head>
+<body>
+		{extend name="teacher/alterDetails"}
+		{block name="middle"}
+		<div class="row">
+			<div class="content">
+				<div class="col-xs-5">
+					<div class="row text-right">
+						<div class="tx" style="background-image: url('{$data.headimg}');"></div>
+					</div>
+					<div class="row wenzi">
+						<p>你好啊</p>
+						<p>{$data.name}&nbsp;老师</p>
+						<p>欢迎使用创客考试系统</p>
+					</div>
+				</div>
+				<div class="col-xs-7">
+					<div class="form-group">
+						<p>
+							<span>工号：</span>
+							{$data.user}
+						</p>
+						<p>
+							<span>性别：</span>
+							{$data.sex}
+						</p>
+						<p>
+							<span>院系：</span>
+							{$data.faculty}
+						</p>
+						<p>
+							<span>电子邮箱：</span>
+							{$data.email}
+						</p>
+						<p>
+							<span>个签：</span>
+							{$data.sign}
+						</p>
+					</div>
+					<div class="row" id="alter">
+						<a href="{:url('index/Teacher/alterDetails')}">修改个人资料</a>
+					</div>
+					<a href="{:url('index/Question/select')}" class="access">
+						进入创客题库管理页
+					</a>
+				</div>
+			</div>
+		</div>
+		{/block}
+		
+	</div>
+</body>
+</html>

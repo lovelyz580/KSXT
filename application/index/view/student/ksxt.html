@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> {block name="head"}
+    <title>学生-考试信息</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/student/ksxt.css">
+    <script type="text/javascript" src="__STATIC__/js/student/ksxt.js"></script>
+    {/block}
+</head>
+
+<body>
+    {extend name="student/alterDetails"} {block name="middle"}
+    <div class="row middle" style="height: 700px;">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Studentper/ksxt')}">
+                            <span></span>未过时间试卷
+                        </a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Studentper/hasKsxt')}">
+                            <span></span>已过时间试卷
+                        </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+            <div class="panel text-left exam">
+                <div class="panel-heading">
+                    <ul class="list-unstyled list-inline">
+                        <li>即将考试试卷</li>
+                        <li class="pull-right">
+                            <button class="baom">立即报名</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-body">
+                    <table class="table-responsive table text-center">
+                        <thead>
+                            <tr>
+                                <td>试卷名</td>
+                                <td>总分</td>
+                                <td>班级</td>
+                                <td>考试日期</td>
+                                <td>考试时长</td>
+                                <td>拖考时长</td>
+                                <td>操作</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {volist name="sdata" id="value" empty="
+                            <tr>
+                                <td colspan='7'>
+                                    <h4>还没有试卷~~~~</h4></td>
+                            </tr>"}
+                            <tr>
+                                <td>{$value.name}</td>
+                                <td>{$value.score}分</td>
+                                <td>{$value.cname}</td>
+                                <td>{$value.strat}</td>
+                                <td>{$value.length}分钟</td>
+                                <td>{$value.size}分钟</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="{:url('index/Showpascal/datiPage',['id'=>$value.id])}" class="btn btn-success" value="{$value.id}">开始考试</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            {/volist}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="panel edit">
+        <div class="panel-heading">
+            报名
+        </div>
+        <div class="panel-body">
+            <form class="form form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">教师：</label>
+                    <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                        <select class="form-control name teacher">
+                            {volist name="teacher" id="value"}
+                            <option value="{$value.id}">{$value.teacher_name}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">课程：</label>
+                    <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                        <select class="form-control name course">
+                            {volist name="course" id="value"}
+                            <option value="{$value.id}">{$value.course_name}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">班级：</label>
+                    <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                        <select class="form-control name class">
+                            {volist name="class" id="value"}
+                            <option value="{$value.id}">{$value.class_name}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">授权码：</label>
+                    <div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+                        <input type="text" class="form-control code" placeholder="请输入授权码">
+                    </div>
+                </div>
+            </form>
+            <div class="btngroup text-center">
+                <button class="save">报名</button>
+                <button class="esc">取消</button>
+            </div>
+        </div>
+    </div>
+
+    {/block}
+   
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{block name="head"}
+	<title>发布试卷查看</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/published/see.css">
+	<script type="text/javascript" src="__STATIC__/js/published/see.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+
+	{block name="activec"}
+    <li class="active">
+        <a href="{:url('index/Course/see')}">课程管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left right">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>班级试卷查看</li>
+						<li class="pull-right">
+							<button class="delete">删除</button>
+						</li>
+						<li class="pull-right">
+							<button class="add">发布试卷</button>
+						</li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					<table class="table table-responsive">
+						<thead>
+							<td>
+								<input type="checkbox" class="quanxuan">
+							</td>
+							<td>序号</td>
+							<td>试卷名</td>
+							<td>考试时间</td>
+							<td>考试时长</td>
+							<td>延误时长</td>
+							<td>发布时间</td>
+							<td>操作</td>
+						</thead>
+						<tbody>
+							{volist name="pdata" id="value" key="k" empty="<tr><td colspan='8'><h4 class='text-center'>还没有试卷，赶快发布吧！</h4></td></tr>"}
+							<tr>
+								<td>
+									<input type="checkbox" value="{$value.id}">
+								</td>
+								<td>{$k}</td>
+								<td><a href="{:url('index/Examination/seeStuDes',['id'=>$value.id])}">{$value.name}</a></td>
+								<td>{$value.strat}</td>
+								<td>{$value.length}</td>
+								<td>{$value.size}</td>
+								<td>{$value.date}</td>
+								<td>
+									<button value="{$value.id}" class="alter">编辑</button>
+								</td>
+							</tr>
+							{/volist}
+						</tbody>
+					</table>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="panel edit">
+    	<div class="panel-heading">
+    		发布试卷
+    	</div>
+    	<div class="panel-body">
+    		<form class="form form-horizontal">
+    			<div class="form-group">
+    				<label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">试卷名称：</label>
+    				<div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+    					<select class="form-control name">
+    						{volist name="edata" id="value"}
+    						<option value="{$value.id}">{$value.examination_name}</option>
+    						{/volist}
+    					</select>
+    				</div>
+    			</div>
+    			<div class="form-group">
+    				<label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">考试时间：</label>
+    				<div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+    					<input type="datetime-local" class="form-control strat">
+    				</div>
+    			</div>
+    			<div class="form-group">
+    				<label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">考试时长：</label>
+    				<div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+    					<input type="number" class="form-control length" placeholder="请输入与考试时长">
+    				</div>
+    			</div>
+    			<div class="form-group">
+    				<label class="control-label col-xs-12 col-lg-4 col-md-5 col-sm-5">延误时长</label>
+    				<div class="col-xs-12 col-lg-6 col-md-6 col-sm-6">
+    					<input type="number" class="form-control size" placeholder="请输入延误时长">
+    				</div>
+    			</div>
+    		</form>
+    		<div class="btngroup text-center">
+    			<button class="save">保存</button>
+    			<button class="esc">取消</button>
+    		</div>
+    	</div>
+    </div>
+   	{/block}
+</body>
+</html>

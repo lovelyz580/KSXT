@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{block name="head"}
+	<title>试卷-修改</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/examination/alter.css">
+	<script type="text/javascript" src="__STATIC__/js/examination/alter.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+
+	{block name="actives"}
+    <li class="active">
+        <a href="{:url('index/Examination/see')}">试卷管理</a>
+    </li>
+    {/block}
+
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left exam">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>添加试题</li>
+						<li id="patterns" class="pull-right">
+							<a href="{:url('index/Examination/addPage',['idPascal'=>$idpascal])}">添加试题</a>
+						</li>
+						<li class="pull-right"><button>移出</button></li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					<table class="table-responsive table">
+						<thead>
+							<td width="20">
+								<input type="checkbox" id="quanxuan">
+							</td>
+							<td>序号</td>
+							<td>题干</td>
+							<td>题型</td>
+							<td>难度</td>
+							<td>知识点</td>
+							<td>修改时间</td>
+							<td>操作</td>
+						</thead>
+						<tbody>
+							{volist name="questionPascal" id="value" key="k" empty="<tr><td colspan='8' align='center'>还没有试题，快去添加吧！</td></tr>"}
+							<tr>
+								<td>
+									<input type="checkbox" value="{$value.tid}">
+								</td>
+								<td>{$k}</td>
+								<td>{$value.name}</td>
+								<td>{$value.pname}</td>
+								<td>{$value.difficulty}</td>
+								<td>{$value.kname}</td>
+								<td>{$value.date}</td>
+								<td>
+									<button value="{$value.id}" t="{$value.pname}">查看</button>
+									<button value="{$value.tid}">移出</button>
+								</td>
+							</tr>
+							{/volist}
+						</tbody>
+					</table>
+				</div>
+			</div>
+        </div>
+    </div>
+    <!-- 查看弹框 -->
+    <div class="panel seeSingle panels">
+        <div class="panel-heading">
+            试题详情查看
+            <img src="__STATIC__/images/question/u1865.png">
+        </div>
+        <div class="panel-body">
+            <p class="name"></p>
+            <p>A <span class="option1"></span></p>
+            <p>B <span class="option2"></span></p>
+            <p>C <span class="option3"></span></p>
+            <p>D <span class="option4"></span></p>
+            <div class="consult">
+                <p>参考答案：<span class="answer"><span></p>
+                <p>分数：<span class="score"></span></p>
+                <p>困难度：<span class="difficulty"></span></p>
+                <p class="text-right">
+                    <button>展开解析</button>
+                </p>
+                <p class="analysis">解析：<span></span></p>
+            </div>
+            <div class="text-center btngroup">
+                <button>返回</button>
+            </div>
+        </div>
+    </div>
+    <!-- 填空查看 -->
+    <div class="panel seeCompletion panels">
+        <div class="panel-heading">
+            试题详情查看
+            <img src="__STATIC__/images/question/u1865.png">
+        </div>
+        <div class="panel-body">
+            <p class="topic"></p>
+            <div class="consult">
+                <p>参考答案：</p>
+                <div class="answer"></div>
+                <p><span>分数：</span>
+                    <st class="score"></st>
+                </p>
+                <p><span>困难度：</span>
+                    <st class="difficulty"></st>
+                </p>
+                <p class="text-right">
+                    <button>展开解析</button>
+                </p>
+                <p class="analysis"><span>解析：</span>
+                    <st></st>
+                </p>
+            </div>
+            <div class="btngroup text-center">
+                <button>返回</button>
+            </div>
+        </div>
+    </div>
+    <!-- 问答题 -->
+    <div class="panel seeEssay panels">
+        <div class="panel-heading">
+            <span>查看试题详情</span>
+            <img src="__STATIC__/images/question/u1865.png">
+        </div>
+        <div class="panel-body">
+            <p class="topic"></p>
+            <div class="consult">
+                <p><span>参考答案：</span>
+                    <st class="answer"></st>
+                </p>
+                <p><span>分数：</span>
+                    <st class="score"></st>
+                </p>
+                <p><span>困难度：</span>
+                    <st class="difficulty"></st>
+                </p>
+                <p class="text-right">
+                    <button>展开解析</button>
+                </p>
+                <p class="analysis"><span>题解：</span>
+                    <st></st>
+                </p>
+            </div>
+            <div class="btngroup text-center">
+                <button>返回</button>
+            </div>
+        </div>
+    </div>
+	{/block}
+</body>
+</html>

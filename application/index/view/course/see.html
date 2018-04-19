@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{block name="head"}
+	<title>课程查看</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/course/see.css">
+	<script type="text/javascript" src="__STATIC__/js/course/see.js"></script>
+	{/block}
+</head>
+<body>
+	{extend name="teacher/alterDetails"}
+	{block name="activec"}
+    <li class="active">
+        <a href="{:url('index/Course/see')}">课程管理</a>
+    </li>
+    {/block}
+	{block name="middle"}
+	<div class="row middle">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+            <ul class="list-unstyled left">
+                <li class="seeQuestion">
+                    <a href="{:url('index/Question/select')}">
+							<span></span>查看题库
+						</a>
+                </li>
+                <li class="addQuestion">
+                    <a href="{:url('index/Question/addPage')}">
+							<span></span>新增题库
+						</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9">
+			<div class="panel text-left right">
+				<div class="panel-heading">
+					<ul class="list-unstyled list-inline">
+						<li>查看课程</li>
+						<li class="pull-right">
+							<button class="delete">删除</button>
+						</li>
+						<li class="pull-right">
+							<button class="rename">重命名</button>
+						</li>
+						<li class="pull-right">
+							<button class="addCourse">创建课程</button>
+						</li>
+					</ul>
+				</div>
+				<div class="panel-body">
+					{volist name="dataC" id="value" empty="<h4 class='text-center'>还没有课程，赶快创建吧！</h4>"}
+					<div class="options pull-left">
+						<span value="{$value.id}"></span>
+						<a href="{:url('index/Grade/see',['id'=>$value.id])}">
+							<img src="__STATIC__/images/question/2ea074b2c20b425baadf2cec32badf36.jpg" class="img-responsive">
+						</a>
+						<p>{$value.course_name}</p>
+					</div>
+					{/volist}
+				</div>
+			</div>
+        </div>
+    </div>
+   	<div class="panel cname">
+   		<div class="panel-heading">
+   			<span>新增课程</span>
+   		</div>
+   		<div class="panel-body">
+   			<div class="row">
+   				<div class="col-xs-10 col-xs-offset-1">
+   					<div class="form-group">
+		   				<input type="text" placeholder="请输入课程名称" class="form-control">
+		   			</div>
+		   			<div>
+		   				<button class="pull-left save">保存</button>
+		   				<button class="pull-right esc">取消</button>
+		   			</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+	{/block}
+</body>
+</html>

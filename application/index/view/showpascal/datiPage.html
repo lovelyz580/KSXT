@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开始答题-{$exam.name}</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/showpascal/pascal.css">
+    <script type="text/javascript" src="__STATIC__/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/showpascal/pascal.js"></script>
+    
+</head>
+<body>
+	<div class="container">
+		<div class="panel">
+			<div class="panel-heading head">
+				<h3 class="text-center">{$exam.name}</h3>
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-1">
+						<h4>考试时间：{$exam.strat}</h4>
+					</div>
+					<div class="col-lg-3">
+						<h4>考试时长：{$exam.length}分钟</h4>
+					</div>
+					<div class="col-lg-3">
+						<h4>拖考时长：{$exam.size}分钟</h4>
+					</div>
+				</div>
+				<div class="row">
+					<p>注意：考试时间不要切换页面，切换页面视为提交试卷处理</p>
+				</div>
+			</div>
+			<div class="panel-body">
+				<!-- 单选题 -->
+				{if condition="!(!$single)"}
+				<div class="single panel">
+					<div class="panel-heading">
+						<h4>单选题</h4>
+					</div>
+					<div class="panel-body">
+						{volist name="single" id="value" key="k"}
+						<div class="row">
+							<pre>{$k}、{$value.name}</pre>
+							
+							<p>
+								<input type="radio" name="{$value.id}" value="1">
+								A、{$value.options[0]}
+							</p>
+							<p>
+								<input type="radio" name="{$value.id}" value="2">
+								B、{$value.options[1]}
+							</p>
+							<p>
+								<input type="radio" name="{$value.id}" value="3">
+								C、{$value.options[2]}
+							</p>
+							<p>
+								<input type="radio" name="{$value.id}" value="4">
+								D、{$value.options[3]}
+							</p>
+							
+						</div>
+						{/volist}
+					</div>
+				</div>
+				{/if}
+				<!-- 填空题 -->
+				{if condition="!(!$completion)"}
+				<div class="completion panel">
+					<div class="panel-heading">
+						<h4>填空题</h4>
+					</div>
+					<div class="panel-body">
+						{volist name="completion" id="value" key="k"}
+						<p class="com" value={$value.id}>{$k}、{$value.name}</p>
+						{/volist}
+						
+					</div>
+				</div>
+				{/if}
+				{if condition="!(!$essay)"}
+				<div class="essay panel">
+					<div class="panel-heading">
+						<h4>问答题</h4>
+					</div>
+					<div class="panel-body">
+						{volist name="essay" id="value" key="k"}
+						<div class="row">
+							<p>{$k}、{$value.name}</p>
+							<textarea placeholder="填写答案" rows="5" name="{$value.id}"></textarea>
+						</div>
+						{/volist}
+					</div>
+				</div>
+				{/if}
+			</div>
+			<div class="row text-right btngroup">
+				<button class="btn btn-success submit" value="{$exam.id}">提交试卷</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

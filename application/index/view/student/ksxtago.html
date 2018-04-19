@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        {block name="head"}
+        <title>学生-试卷管理</title>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/student/ksxt.css">
+        {/block}
+    </head>
+    <body>
+        {extend name="student/alterDetails"}
+        {block name="middle"}
+        <div class="row middle" style="height: 700px;">
+            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
+                <ul class="list-unstyled left">
+                    <li class="seeQuestion">
+                        <a href="#">
+                            <span></span>查看未考试试卷
+                        </a>
+                    </li>
+                    <li class="addQuestion">
+                        <a href="#">
+                            <span></span>查看已考试试卷
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右边 -->
+            <div class="col-lg-11 col-md-10 col-sm-10 col-xs-9"  >
+                <div class="panel text-left exam" style="height: 650px;">
+
+
+                    <div class="panel-body">
+                        <table class="table-responsive table text-center">
+                            <thead>
+                                <tr><td width="20">
+                                        <input type="checkbox" class="quanxuan">
+                                    </td>
+                                    <td>试卷名</td>
+                                    <td>总分</td>
+                                    <td>考试日期</td>
+                                    <td>操作</td>
+                                </tr></thead>
+                            <tbody>
+                                <tr><td colspan="5" class="add">暂无试卷，<a href="#"> 立即报名考试！</a></td></tr>						</tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="__STATIC__/js/student/ksxt.js"></script>
+        {/block}
+
+    </div>
+</body>
+</html>
