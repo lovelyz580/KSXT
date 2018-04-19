@@ -1,0 +1,927 @@
+---------------------------------------------------------------
+[ 2018-03-09T16:45:26+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/selectQuestion
+[ info ] 127.0.0.1/ksxt/public/selectQuestion [运行时间：0.494251s][吞吐率：2.02req/s] [内存消耗：1,942.80kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Question',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:26+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/index/question/index.html
+[ info ] 127.0.0.1/ksxt/public/index/question/index.html [运行时间：0.129217s][吞吐率：7.74req/s] [内存消耗：1,912.71kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'question' => 'index',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:28+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/login.html
+[ info ] 127.0.0.1/ksxt/public/login.html [运行时间：0.115499s][吞吐率：8.66req/s] [内存消耗：1,912.34kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/index/question/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:28+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/captcha.html
+[ info ] 127.0.0.1/ksxt/public/captcha.html [运行时间：0.173288s][吞吐率：5.77req/s] [内存消耗：1,596.87kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:35+08:00 ] 127.0.0.1 127.0.0.1 POST /ksxt/public/le
+[ info ] 127.0.0.1/ksxt/public/le [运行时间：0.104249s][吞吐率：9.59req/s] [内存消耗：1,930.94kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'loginEfficacy',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'content-length' => '47',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type' => '0',
+  'user' => '123456',
+  'password' => '123456',
+  'captcha' => 'mdi4',
+)
+[ info ] [ RUN ] app\index\controller\Index->loginEfficacy[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:35+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/captcha.html
+[ info ] 127.0.0.1/ksxt/public/captcha.html [运行时间：0.084798s][吞吐率：11.79req/s] [内存消耗：1,596.88kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:39+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/captcha.html
+[ info ] 127.0.0.1/ksxt/public/captcha.html [运行时间：0.050896s][吞吐率：19.65req/s] [内存消耗：1,596.90kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:52+08:00 ] 127.0.0.1 127.0.0.1 POST /ksxt/public/le
+[ info ] 127.0.0.1/ksxt/public/le [运行时间：5.664461s][吞吐率：0.18req/s] [内存消耗：3,007.79kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'loginEfficacy',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'content-length' => '47',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'type' => '0',
+  'user' => '123456',
+  'password' => '123456',
+  'captcha' => 'ntdt',
+)
+[ info ] [ RUN ] app\index\controller\Index->loginEfficacy[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.391364s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.623533s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `user` = '123456' LIMIT 1 [ RunTime:1.666839s ]
+[ sql ] [ SQL ] SELECT `student`.`id` AS `id`,`student`.`user` AS `user`,`student`.`student_name` AS `name`,`student`.`sex` AS `sex`,`faculty`.`faculty_name` AS `faculty`,`student`.`class` AS `class`,`student`.`headimg` AS `headimg`,`student`.`email` AS `email`,`student`.`sign` AS `sign`,`skin`.`skin_name` AS `skinName`,`skin`.`skin_img` AS `skinImg` FROM `student`,`skin`,`faculty` WHERE  (  student.skin_id=skin.id )  AND (  student.faculty_id=faculty.id )  AND `student`.`id` = '1' [ RunTime:2.821276s ]
+---------------------------------------------------------------
+[ 2018-03-09T16:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/personalSDetails
+[ info ] 127.0.0.1/ksxt/public/personalSDetails [运行时间：0.115800s][吞吐率：8.64req/s] [内存消耗：1,967.22kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->personalDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\personalDetails.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T16:45:56+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/alterSDetails.html
+[ info ] 127.0.0.1/ksxt/public/alterSDetails.html [运行时间：1.033376s][吞吐率：0.97req/s] [内存消耗：3,038.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/personalSDetails',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\alterDetails.html [ array (
+  0 => 'data',
+  1 => 'faculty',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.370925s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.260631s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` [ RunTime:0.247586s ]
+---------------------------------------------------------------
+[ 2018-03-09T16:48:22+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/ksxt.html
+[ info ] 127.0.0.1/ksxt/public/ksxt.html [运行时间：23.271234s][吞吐率：0.04req/s] [内存消耗：3,201.83kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'ksxt',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->ksxt[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\ksxt.html [ array (
+  0 => 'data',
+  1 => 'sdata',
+  2 => 'teacher',
+  3 => 'course',
+  4 => 'class',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.857088s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `entryform` [ RunTime:2.857063s ]
+[ sql ] [ SQL ] SELECT `published`.`id` AS `id`,`examination`.`examination_name` AS `name`,`examination`.`score` AS `score`,`published`.`length` AS `length`,`published`.`strat` AS `strat`,`published`.`size` AS `size`,`class`.`class_name` AS `cname` FROM `entryform`,`examination`,`published`,`class` WHERE  `entryform`.`student_id` = '1'  AND (  entryform.class_id=published.class_id )  AND (  entryform.class_id=class.id )  AND (  published.exam_id=examination.id )  AND `published`.strat+published.size > 1520585279 ORDER BY `published`.`strat`  desc [ RunTime:2.956547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:1.573999s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:2.814418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:6.454812s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE (  `teacher_id` = 1 ) AND `course`.`course_delete_date` IS NULL [ RunTime:1.763851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.272941s ]
+[ sql ] [ SQL ] SELECT * FROM `class` WHERE (  `course_id` = 7 ) AND `class`.`class_delete_date` IS NULL [ RunTime:2.439075s ]
+---------------------------------------------------------------
+[ 2018-03-09T16:48:23+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/ksxt.html
+[ info ] 127.0.0.1/ksxt/public/ksxt.html [运行时间：22.056893s][吞吐率：0.05req/s] [内存消耗：3,201.83kb] [文件加载：61]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'ksxt',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->ksxt[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\ksxt.html [ array (
+  0 => 'data',
+  1 => 'sdata',
+  2 => 'teacher',
+  3 => 'course',
+  4 => 'class',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040057s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `entryform` [ RunTime:0.028065s ]
+[ sql ] [ SQL ] SELECT `published`.`id` AS `id`,`examination`.`examination_name` AS `name`,`examination`.`score` AS `score`,`published`.`length` AS `length`,`published`.`strat` AS `strat`,`published`.`size` AS `size`,`class`.`class_name` AS `cname` FROM `entryform`,`examination`,`published`,`class` WHERE  `entryform`.`student_id` = '1'  AND (  entryform.class_id=published.class_id )  AND (  entryform.class_id=class.id )  AND (  published.exam_id=examination.id )  AND `published`.strat+published.size > 1520585302 ORDER BY `published`.`strat`  desc [ RunTime:0.027489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.028160s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` [ RunTime:0.031424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.029732s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE (  `teacher_id` = 1 ) AND `course`.`course_delete_date` IS NULL [ RunTime:0.028053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `class` [ RunTime:0.026142s ]
+[ sql ] [ SQL ] SELECT * FROM `class` WHERE (  `course_id` = 7 ) AND `class`.`class_delete_date` IS NULL [ RunTime:0.027385s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:21+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/personalSDetails.html
+[ info ] 127.0.0.1/ksxt/public/personalSDetails.html [运行时间：0.066780s][吞吐率：14.97req/s] [内存消耗：1,967.23kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/ksxt.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->personalDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\personalDetails.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/alterSDetails.html
+[ info ] 127.0.0.1/ksxt/public/alterSDetails.html [运行时间：0.165794s][吞吐率：6.03req/s] [内存消耗：3,039.12kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/personalSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\alterDetails.html [ array (
+  0 => 'data',
+  1 => 'faculty',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039351s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.028327s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` [ RunTime:0.025272s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:41+08:00 ] 127.0.0.1 127.0.0.1 POST /ksxt/public/alterStudent
+[ info ] 127.0.0.1/ksxt/public/alterStudent [运行时间：1.235938s][吞吐率：0.81req/s] [内存消耗：3,090.82kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterStudent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'content-length' => '101',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'name' => '机器猫',
+  'sex' => '2',
+  'email' => '2211626182@qq.com',
+  'yx' => 'PT1NUQ',
+  'class' => 'Java',
+  'sign' => '1224567890',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterStudent[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.387942s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.178240s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `student_name`='机器猫',`sex`='2',`email`='2211626182@qq.com',`faculty_id`=1,`sign`='1224567890',`class`='Java'  WHERE  `id` = 1 [ RunTime:0.244153s ]
+[ sql ] [ SQL ] SELECT `student`.`id` AS `id`,`student`.`user` AS `user`,`student`.`student_name` AS `name`,`student`.`sex` AS `sex`,`faculty`.`faculty_name` AS `faculty`,`student`.`class` AS `class`,`student`.`headimg` AS `headimg`,`student`.`email` AS `email`,`student`.`sign` AS `sign`,`skin`.`skin_name` AS `skinName`,`skin`.`skin_img` AS `skinImg` FROM `student`,`skin`,`faculty` WHERE  (  student.skin_id=skin.id )  AND (  student.faculty_id=faculty.id )  AND `student`.`id` = '1' [ RunTime:0.259255s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/personalSDetails
+[ info ] 127.0.0.1/ksxt/public/personalSDetails [运行时间：0.048968s][吞吐率：20.42req/s] [内存消耗：1,967.22kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->personalDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\personalDetails.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/alterSDetails.html
+[ info ] 127.0.0.1/ksxt/public/alterSDetails.html [运行时间：2.124176s][吞吐率：0.47req/s] [内存消耗：3,038.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/personalSDetails',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\alterDetails.html [ array (
+  0 => 'data',
+  1 => 'faculty',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.637512s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:1.005525s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` [ RunTime:0.409847s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:47+08:00 ] 127.0.0.1 127.0.0.1 POST /ksxt/public/alterStudent
+[ info ] 127.0.0.1/ksxt/public/alterStudent [运行时间：0.230879s][吞吐率：4.33req/s] [内存消耗：3,090.82kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterStudent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'content-length' => '101',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'name' => '机器猫',
+  'sex' => '1',
+  'email' => '2211626182@qq.com',
+  'yx' => 'PT1NUQ',
+  'class' => 'Java',
+  'sign' => '1224567890',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterStudent[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047712s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.044728s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `student_name`='机器猫',`sex`='1',`email`='2211626182@qq.com',`faculty_id`=1,`sign`='1224567890',`class`='Java'  WHERE  `id` = 1 [ RunTime:0.031581s ]
+[ sql ] [ SQL ] SELECT `student`.`id` AS `id`,`student`.`user` AS `user`,`student`.`student_name` AS `name`,`student`.`sex` AS `sex`,`faculty`.`faculty_name` AS `faculty`,`student`.`class` AS `class`,`student`.`headimg` AS `headimg`,`student`.`email` AS `email`,`student`.`sign` AS `sign`,`skin`.`skin_name` AS `skinName`,`skin`.`skin_img` AS `skinImg` FROM `student`,`skin`,`faculty` WHERE  (  student.skin_id=skin.id )  AND (  student.faculty_id=faculty.id )  AND `student`.`id` = '1' [ RunTime:0.033554s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:47+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/personalSDetails
+[ info ] 127.0.0.1/ksxt/public/personalSDetails [运行时间：0.059110s][吞吐率：16.92req/s] [内存消耗：1,967.22kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->personalDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\personalDetails.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-09T17:23:51+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/alterSDetails.html
+[ info ] 127.0.0.1/ksxt/public/alterSDetails.html [运行时间：1.499479s][吞吐率：0.67req/s] [内存消耗：3,038.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/personalSDetails',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\alterDetails.html [ array (
+  0 => 'data',
+  1 => 'faculty',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.605129s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `faculty` [ RunTime:0.416111s ]
+[ sql ] [ SQL ] SELECT * FROM `faculty` [ RunTime:0.392651s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:59+08:00 ] 127.0.0.1 127.0.0.1 POST /ksxt/public/alterStudent
+[ info ] 127.0.0.1/ksxt/public/alterStudent [运行时间：1.883608s][吞吐率：0.53req/s] [内存消耗：3,090.82kb] [文件加载：59]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'alterStudent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'content-length' => '101',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'name' => '机器猫',
+  'sex' => '2',
+  'email' => '2211626182@qq.com',
+  'yx' => 'PT1NUQ',
+  'class' => 'Java',
+  'sign' => '1224567890',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->alterStudent[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.598351s ] mysql:host=114.67.130.212;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.416309s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `student_name`='机器猫',`sex`='2',`email`='2211626182@qq.com',`faculty_id`=1,`sign`='1224567890',`class`='Java'  WHERE  `id` = 1 [ RunTime:0.382338s ]
+[ sql ] [ SQL ] SELECT `student`.`id` AS `id`,`student`.`user` AS `user`,`student`.`student_name` AS `name`,`student`.`sex` AS `sex`,`faculty`.`faculty_name` AS `faculty`,`student`.`class` AS `class`,`student`.`headimg` AS `headimg`,`student`.`email` AS `email`,`student`.`sign` AS `sign`,`skin`.`skin_name` AS `skinName`,`skin`.`skin_img` AS `skinImg` FROM `student`,`skin`,`faculty` WHERE  (  student.skin_id=skin.id )  AND (  student.faculty_id=faculty.id )  AND `student`.`id` = '1' [ RunTime:0.416741s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:23:59+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/personalSDetails
+[ info ] 127.0.0.1/ksxt/public/personalSDetails [运行时间：0.050199s][吞吐率：19.92req/s] [内存消耗：1,967.22kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Studentper',
+    2 => 'personalDetails',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/alterSDetails.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=138sm0bslkohiupjrqo8n83303',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Studentper->personalDetails[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Studentper.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\student\personalDetails.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File

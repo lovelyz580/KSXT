@@ -1,0 +1,2485 @@
+---------------------------------------------------------------
+[ 2018-01-03T08:04:17+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/text
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/text [运行时间：0.079776s][吞吐率：12.54req/s] [内存消耗：2,464.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'text',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->text[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005713s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.018698s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `question_name` = 'Java' LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:04:25+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.055574s][吞吐率：17.99req/s] [内存消耗：2,462.61kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001558s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007196s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:06:28+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.060664s][吞吐率：16.48req/s] [内存消耗：2,464.27kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.011644s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `question_name` = 'Java' LIMIT 1 [ RunTime:0.000737s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:07:37+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.073651s][吞吐率：13.58req/s] [内存消耗：2,513.22kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010972s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007480s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` [ RunTime:0.000433s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:33]
+---------------------------------------------------------------
+[ 2018-01-03T08:07:48+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.045894s][吞吐率：21.79req/s] [内存消耗：1,458.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:33]
+---------------------------------------------------------------
+[ 2018-01-03T08:07:49+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.027671s][吞吐率：36.14req/s] [内存消耗：1,458.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:33]
+---------------------------------------------------------------
+[ 2018-01-03T08:07:55+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.059415s][吞吐率：16.83req/s] [内存消耗：2,460.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.012351s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:10:59+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.059050s][吞吐率：16.93req/s] [内存消耗：2,462.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001388s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008624s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:11:00+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.058658s][吞吐率：17.05req/s] [内存消耗：2,462.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011442s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.012347s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:11:05+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.062544s][吞吐率：15.99req/s] [内存消耗：2,461.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002065s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007362s ]
+[ sql ] [ SQL ] INSERT INTO `question` (`question_name` , `teacher_id` , `question_date`) VALUES ('ersfd' , 1 , '1514938265') [ RunTime:0.001240s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:12:54+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.033083s][吞吐率：30.23req/s] [内存消耗：1,459.71kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';', expecting ']'[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:45]
+---------------------------------------------------------------
+[ 2018-01-03T08:13:17+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.047960s][吞吐率：20.85req/s] [内存消耗：2,448.52kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:13:44+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.042181s][吞吐率：23.71req/s] [内存消耗：2,448.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:13:45+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.050085s][吞吐率：19.97req/s] [内存消耗：2,448.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:17:39+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.054871s][吞吐率：18.22req/s] [内存消耗：2,448.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:19:11+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.042498s][吞吐率：23.53req/s] [内存消耗：2,448.38kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:19:12+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.034425s][吞吐率：29.05req/s] [内存消耗：2,448.38kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:19:13+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.032936s][吞吐率：30.36req/s] [内存消耗：2,448.51kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->date[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-03T08:20:07+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.053629s][吞吐率：18.65req/s] [内存消耗：2,461.28kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008424s ]
+[ sql ] [ SQL ] INSERT INTO `question` (`question_name` , `teacher_id` , `question_date`) VALUES ('sfd' , 2 , 1514938807) [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:29:19+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.054276s][吞吐率：18.42req/s] [内存消耗：2,460.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007404s ]
+[ sql ] [ SQL ] INSERT INTO `question` (`question_name` , `question_date`) VALUES ('sfd' , 1514939359) [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:29:20+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.057345s][吞吐率：17.44req/s] [内存消耗：2,460.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011380s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008912s ]
+[ sql ] [ SQL ] INSERT INTO `question` (`question_name` , `question_date`) VALUES ('sfd' , 1514939360) [ RunTime:0.000806s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:29:22+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/add
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/add [运行时间：0.052735s][吞吐率：18.96req/s] [内存消耗：2,460.51kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010865s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008431s ]
+[ sql ] [ SQL ] INSERT INTO `question` (`question_name` , `question_date`) VALUES ('sfd' , 1514939362) [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:33:18+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.059577s][吞吐率：16.79req/s] [内存消耗：2,515.35kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011674s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008116s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` [ RunTime:0.000433s ]
+[ error ] [1]Call to a member function whree() on a non-object[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:31]
+---------------------------------------------------------------
+[ 2018-01-03T08:33:48+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.047673s][吞吐率：20.98req/s] [内存消耗：2,464.80kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.006962s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` WHERE  `teacher_id` = 0 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:36:25+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/delete
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/delete [运行时间：0.064137s][吞吐率：15.59req/s] [内存消耗：2,506.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'delete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->delete[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011168s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.006654s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000872s ]
+[ error ] [0]没有条件不会执行删除操作[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:2699]
+---------------------------------------------------------------
+[ 2018-01-03T08:36:46+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/delete1
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/delete1 [运行时间：0.072068s][吞吐率：13.88req/s] [内存消耗：2,506.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'delete1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->delete1[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011363s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.013668s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000541s ]
+[ error ] [0]没有条件不会执行删除操作[D:\phpStudy\WWW\ksxt\thinkphp\library\think\db\Query.php:2699]
+---------------------------------------------------------------
+[ 2018-01-03T08:37:27+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/delete1
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/delete1 [运行时间：0.063982s][吞吐率：15.63req/s] [内存消耗：2,550.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'delete1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->delete1[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001208s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.012805s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 4 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] DELETE FROM `question`    WHERE  `id` = 4 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:42:40+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.073687s][吞吐率：13.57req/s] [内存消耗：2,466.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011735s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.012269s ]
+[ sql ] [ SQL ] SELECT `question_name` FROM `question` WHERE  `teacher_id` = 0 OR `teacher_id` = 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:45:35+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.068112s][吞吐率：14.68req/s] [内存消耗：2,468.65kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010480s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009421s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `teacher_id` = 0 OR `teacher_id` = 1 [ RunTime:0.001288s ]
+---------------------------------------------------------------
+[ 2018-01-03T08:45:49+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.065002s][吞吐率：15.38req/s] [内存消耗：2,530.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011148s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008712s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `teacher_id` = 0 OR `teacher_id` = 1 [ RunTime:0.000490s ]
+[ error ] [1]Call to undefined function app\index\controller\toArray()[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:33]
+---------------------------------------------------------------
+[ 2018-01-03T08:46:02+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/getValue
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/getValue [运行时间：0.055278s][吞吐率：18.09req/s] [内存消耗：2,468.65kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getValue',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getValue[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000954s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.013704s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `teacher_id` = 0 OR `teacher_id` = 1 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2018-01-03T09:11:39+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.054831s][吞吐率：18.24req/s] [内存消耗：2,467.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001150s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007291s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000841s ]
+---------------------------------------------------------------
+[ 2018-01-03T09:11:52+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.056428s][吞吐率：17.72req/s] [内存消耗：2,468.90kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008015s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-01-03T09:13:05+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.028676s][吞吐率：34.87req/s] [内存消耗：1,463.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestionDateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:13:57+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.035746s][吞吐率：27.98req/s] [内存消耗：1,463.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestionDateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:13:57+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.028913s][吞吐率：34.59req/s] [内存消耗：1,463.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestionDateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:13:58+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.030120s][吞吐率：33.20req/s] [内存消耗：1,463.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestionDateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:14:15+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.031092s][吞吐率：32.16req/s] [内存消耗：1,463.32kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestion_dateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:14:44+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.029207s][吞吐率：34.24req/s] [内存消耗：1,463.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestionDateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:15:59+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.031143s][吞吐率：32.11req/s] [内存消耗：1,463.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'getQuestiondateAttr' (T_STRING), expecting variable (T_VARIABLE)[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:19]
+---------------------------------------------------------------
+[ 2018-01-03T09:16:43+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.065615s][吞吐率：15.24req/s] [内存消耗：2,469.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011371s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.012975s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2018-01-03T09:17:06+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.058635s][吞吐率：17.05req/s] [内存消耗：2,469.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001420s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007941s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001019s ]
+---------------------------------------------------------------
+[ 2018-01-03T11:59:06+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.028970s][吞吐率：34.52req/s] [内存消耗：1,450.02kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\app\index\model\Pattern' not found[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2018-01-03T11:59:18+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.034371s][吞吐率：29.09req/s] [内存消耗：1,452.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\model' not found[D:\phpStudy\WWW\ksxt\application\index\model\Pattern.php:14]
+---------------------------------------------------------------
+[ 2018-01-03T12:02:26+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.037791s][吞吐率：26.46req/s] [内存消耗：1,763.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Trait 'app\index\model\SortDelete' not found[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:21]
+---------------------------------------------------------------
+[ 2018-01-03T12:05:02+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.062250s][吞吐率：16.06req/s] [内存消耗：2,487.43kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001675s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008871s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:06:32+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.078671s][吞吐率：12.71req/s] [内存消耗：2,544.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011177s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.011793s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000712s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:38]
+---------------------------------------------------------------
+[ 2018-01-03T12:07:27+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.058174s][吞吐率：17.19req/s] [内存消耗：2,545.67kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.010236s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000483s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:38]
+---------------------------------------------------------------
+[ 2018-01-03T12:08:19+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.051046s][吞吐率：19.59req/s] [内存消耗：2,545.93kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001183s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009191s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000596s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:38]
+---------------------------------------------------------------
+[ 2018-01-03T12:08:20+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.058214s][吞吐率：17.18req/s] [内存消耗：2,545.93kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011345s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009345s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000513s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:38]
+---------------------------------------------------------------
+[ 2018-01-03T12:09:23+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.059792s][吞吐率：16.72req/s] [内存消耗：2,543.91kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001314s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007353s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000585s ]
+[ error ] [1]Call to undefined function app\index\model\typeof()[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:32]
+---------------------------------------------------------------
+[ 2018-01-03T12:11:00+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.064917s][吞吐率：15.40req/s] [内存消耗：2,546.32kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011334s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009810s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000754s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:38]
+---------------------------------------------------------------
+[ 2018-01-03T12:12:06+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.054450s][吞吐率：18.37req/s] [内存消耗：2,489.55kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001778s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008733s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:12:50+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.055235s][吞吐率：18.10req/s] [内存消耗：2,534.38kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001157s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007920s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.001039s ]
+[ error ] [8]未定义变量: r[D:\phpStudy\WWW\ksxt\application\index\controller\Index.php:16]
+---------------------------------------------------------------
+[ 2018-01-03T12:12:58+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.057686s][吞吐率：17.34req/s] [内存消耗：2,488.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010223s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007879s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:22+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.050320s][吞吐率：19.87req/s] [内存消耗：2,489.08kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001093s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008524s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:31+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.053309s][吞吐率：18.76req/s] [内存消耗：2,575.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009469s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` = 1 ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000755s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:39+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.053139s][吞吐率：18.82req/s] [内存消耗：2,490.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.011203s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000945s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:40+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.053831s][吞吐率：18.58req/s] [内存消耗：2,490.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011235s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007801s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.001342s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:41+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.056552s][吞吐率：17.68req/s] [内存消耗：2,490.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011373s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007656s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:13:42+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.039639s][吞吐率：25.23req/s] [内存消耗：2,490.46kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.006999s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:01+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.046209s][吞吐率：21.64req/s] [内存消耗：2,490.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001239s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009108s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:02+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.053459s][吞吐率：18.71req/s] [内存消耗：2,490.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011069s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009316s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:02+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.052820s][吞吐率：18.93req/s] [内存消耗：2,490.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007168s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.001183s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:02+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.050594s][吞吐率：19.77req/s] [内存消耗：2,490.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010033s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.006976s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.001380s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:03+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.042824s][吞吐率：23.35req/s] [内存消耗：2,490.27kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008893s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:29+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.047930s][吞吐率：20.86req/s] [内存消耗：2,490.87kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.010530s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000631s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:43+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.058370s][吞吐率：17.13req/s] [内存消耗：2,490.81kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001989s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007878s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:44+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.052138s][吞吐率：19.18req/s] [内存消耗：2,490.81kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011632s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.007737s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:14:45+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.056986s][吞吐率：17.55req/s] [内存消耗：2,490.81kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011206s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.010717s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2,3) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:15:30+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.052188s][吞吐率：19.16req/s] [内存消耗：2,490.35kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009650s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:16:07+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.047818s][吞吐率：20.91req/s] [内存消耗：2,490.50kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001075s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009440s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:17:13+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.048631s][吞吐率：20.56req/s] [内存消耗：2,490.28kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009200s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:17:15+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.054796s][吞吐率：18.25req/s] [内存消耗：2,490.28kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010044s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009296s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000751s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:17:54+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.052836s][吞吐率：18.93req/s] [内存消耗：2,490.08kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009759s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:18:23+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.050892s][吞吐率：19.65req/s] [内存消耗：2,489.85kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001292s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008287s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1,2) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:18:33+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.059666s][吞吐率：16.76req/s] [内存消耗：2,542.79kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012294s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.009299s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.000478s ]
+[ error ] [1]Call to a member function toArray() on a non-object[D:\phpStudy\WWW\ksxt\application\index\model\Question.php:35]
+---------------------------------------------------------------
+[ 2018-01-03T12:18:50+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.047740s][吞吐率：20.95req/s] [内存消耗：2,488.96kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008693s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1) ) AND `question`.`question_delete_date` IS NULL LIMIT 1 [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2018-01-03T12:19:12+08:00 ] ::1 ::1 GET /ksxt/public/index.php/index/Index/get
+[ info ] localhost:8080/ksxt/public/index.php/index/Index/get [运行时间：0.064404s][吞吐率：15.53req/s] [内存消耗：2,488.40kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=885587968; UM_distinctid=1604e3f9a402da-0f18eb8f23193f-464d0228-144000-1604e3f9a412e0; CNZZDATA1262147214=1018848878-1513136443-%7C1513136443; Hm_lvt_a313b1bc82855f63ddfeb747606b623d=1513141280; Hm_lvt_3e596473f0a94eed9fb907d97ff0fc52=1513141280',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get[ D:\phpStudy\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010902s ] mysql:host=127.0.0.1;dbname=ksxt;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `question` [ RunTime:0.008742s ]
+[ sql ] [ SQL ] SELECT * FROM `question` WHERE (  `id` IN (1) ) AND `question`.`question_delete_date` IS NULL [ RunTime:0.001199s ]

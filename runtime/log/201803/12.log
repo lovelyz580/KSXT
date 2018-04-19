@@ -1,0 +1,201 @@
+---------------------------------------------------------------
+[ 2018-03-12T16:28:11+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/selectQuestion
+[ info ] 127.0.0.1/ksxt/public/selectQuestion [运行时间：0.813589s][吞吐率：1.23req/s] [内存消耗：1,942.88kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Question',
+    2 => 'select',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:28:11+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/index/question/index.html
+[ info ] 127.0.0.1/ksxt/public/index/question/index.html [运行时间：0.134048s][吞吐率：7.46req/s] [内存消耗：1,912.73kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1uuj30l1qegiv3bijdb9mkta63',
+)
+[ info ] [ PARAM ] array (
+  'question' => 'index',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:28:14+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/login.html
+[ info ] 127.0.0.1/ksxt/public/login.html [运行时间：0.101797s][吞吐率：9.82req/s] [内存消耗：1,912.29kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/index/question/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1uuj30l1qegiv3bijdb9mkta63',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:28:14+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/captcha.html
+[ info ] 127.0.0.1/ksxt/public/captcha.html [运行时间：0.159360s][吞吐率：6.28req/s] [内存消耗：1,596.90kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1uuj30l1qegiv3bijdb9mkta63',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:28:46+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/login.html
+[ info ] 127.0.0.1/ksxt/public/login.html [运行时间：0.034142s][吞吐率：29.29req/s] [内存消耗：1,912.72kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/index/question/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1uuj30l1qegiv3bijdb9mkta63',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\phpstudy\PHPTutorial\WWW\ksxt\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\ksxt\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:28:47+08:00 ] 127.0.0.1 127.0.0.1 GET /ksxt/public/captcha.html
+[ info ] 127.0.0.1/ksxt/public/captcha.html [运行时间：0.212785s][吞吐率：4.70req/s] [内存消耗：1,596.82kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\ksxt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/ksxt/public/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1uuj30l1qegiv3bijdb9mkta63',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\phpstudy\PHPTutorial\WWW\ksxt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,27 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"/var/www/html/ksxt/public/../application/index/view/index/index.html";i:1518265838;}*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>考试系统</title>
+	<link rel="stylesheet" type="text/css" href="__STATIC__/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/login/base.css">
+	<link rel="stylesheet" type="text/css" href="__STATIC__/css/login/index.css">
+	<script type="text/javascript" src="__STATIC__/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="__STATIC__/bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="loginbg">
+		<!-- 内容区域 -->
+		<div class="content">
+			<img src="__STATIC__/images/login/title.png">
+			<a href="<?php echo url('index/Index/login'); ?>"></a>
+		</div>
+		<!-- 底部 -->
+		<div class="bottom">
+			<p>考试系统</p>
+			<p>Copyright © 2016 , 玩客小组. All right reserved.</p>
+		</div>
+	</div>
+</body>
+</html>
